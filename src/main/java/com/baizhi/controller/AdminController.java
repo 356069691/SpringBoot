@@ -12,6 +12,9 @@ import javax.servlet.http.HttpSession;
 @Controller
 @RequestMapping("/admin")
 public class AdminController {
+    /**
+     * ceshi
+     */
     @Autowired
     private AdminService adminService;
 
